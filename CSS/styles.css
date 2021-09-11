@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
 }
 
 .top-container {
@@ -33,6 +34,7 @@ hr {
   border-color: #EAF6F6;
   border-style: none;
   border-top-style: dotted;
+margin: 50px auto;
 }
 
 .middle-container {}
@@ -41,15 +43,24 @@ hr {
   padding: 30px;
   background-color: #66BFBF;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+
+
 }
 
 a:link, a:visited, a:active {
   text-decoration: none;
+  font-weight: bolder;
 }
+a:hover{
+  text-decoration: underline;
+  color: #EAF6F6;
 
+}
 .proile-img {
   border-radius: 100%;
   width: 10%;
+  margin-top: 50px;
 }
 
 .profile {
@@ -110,6 +121,20 @@ a:link, a:visited, a:active {
   margin: auto;
   height: 2;
 }
+
+.contactMe{
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.footer-text{
+  padding-top: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .BUTTON_PYT {
   background: #66BFBF;
   background-image: -webkit-linear-gradient(top, #66BFBF, #27B5B5);
@@ -123,15 +148,15 @@ a:link, a:visited, a:active {
   height: 0;
   line-height: 0;
   color: #FFFFFF;
-  font-family: Brush Script MT;
-  width: 161px;
-  font-size: 21px;
+  width: 7rem;
   font-weight: 200;
-  padding: 22px;
-  margin: 50PX;
+  padding: 1rem;
+  margin: 3.125rem;
   border: solid #337FED 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
