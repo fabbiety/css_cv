@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  position: relative;
+  background-color: #E8F6EF;
+  padding-top: 100px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-width: 5px;
+  width: 7%;
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+  color: #ffffff;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.proile-img {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.profile {
+  line-height: 2;
+}
+
+.web-img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Telecom-img {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.pro-name {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E
+}
+
+.BUTTON_PYT {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #27B5B5);
+  background-image: -moz-linear-gradient(top, #66BFBF, #27B5B5);
+  background-image: -ms-linear-gradient(top, #66BFBF, #27B5B5);
+  background-image: -o-linear-gradient(top, #66BFBF, #27B5B5);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #27B5B5);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  width: 161px;
+  font-size: 21px;
+  font-weight: 200;
+  padding: 22px;
+  margin: 50PX;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
